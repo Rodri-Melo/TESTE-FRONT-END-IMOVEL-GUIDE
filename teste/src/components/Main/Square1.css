@@ -1,0 +1,74 @@
+.square {
+    border: 1px solid var(--neutral-color);
+    width: 380px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .user-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+  
+  .user-info p {
+    margin: 0;
+  }
+  
+  .people {
+    height: 150px;
+    width: 180px;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .i-desf {
+    height: 145px;
+    width: 180px;
+    filter: blur(10px);
+    z-index: 1;
+    position: absolute;
+  }
+  
+  .p-image {
+    position: relative;
+    height: 140px;
+    width: 115px;
+    z-index: 2;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .user-phone {
+    border: none;
+    background: none;
+    color: var(--primary-color);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0;
+  }
+  
+  .user-phone:hover {
+    text-decoration: underline;
+  }
+  

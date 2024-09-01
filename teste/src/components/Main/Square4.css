@@ -1,0 +1,89 @@
+.square4 {
+  border: 1px solid var(--neutral-color);
+  width: 380px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.house {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.open-btn {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 800px;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  border-radius: inherit;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.close-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+.close-btn:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 468px) {
+    .square4 {
+      width: 100%;
+      
+    }
+  }
+  
+  @media (min-width: 1550px) {
+    .square4 {
+      width: 450px;
+      height: 420px;
+    }
+  }
